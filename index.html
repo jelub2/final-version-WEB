@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NS Stories</title>
+    <link rel="stylesheet" href="style/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <section class="topBar">
+            <a href="index.html">
+            <img src="images/Logo_NS.svg" alt="Logo NS en Home button">
+            </a>
+            <h1>NS Stijloefeningen</h1>
+            <a href="#">
+                <img src="images/leeslijsten.png" alt="link naar leeslijsten">
+            </a>
+            <a href="inlog.html"><img src="images/loggedin.svg" alt="inloggen"></a>
+        </section>
+        <section class="uitgelicht">
+            <section class="info">
+                <a href="verhaaltwee.html">
+                    <p> Editor's pick</p>
+                    <h2>Verwarde Man </h2>
+                </a>
+            </section>
+            <section>
+                <a href="verhaaltwee.html" class="knop lezen">
+                    <p><span>></span>lees verhaal</p>
+                </a>
+            </section>
+        </section>
+    </header>
+    <aside>
+        <h2>Zoek uw verhaal</h2>
+        <form action="#">
+            <fieldset>
+                <label for="zoekterm">Zoeken</label>
+                <input type="text" id="zoekbalk" placeholder="zoeken">
+                <input type="submit" class="knop" value="Zoek">
+            </fieldset>
+            <fieldset>
+                <legend>Imitatie</legend>
+                <section>
+                    <input type="checkbox" name="imitatie" id="Filosoof" value="Filosoof">
+                    <label for="Filosoof">Filosoof</label>
+                </section>
+                <section>
+                    <input type="checkbox" name="imitatie" id="Atleet" value="Atleet">
+                    <label for="Atleet">Atleet</label>
+                </section>
+                <section>
+                    <input type="checkbox" name="imitatie" id="Presentator" value="Presentator">
+                    <label for="Presentator">Presentator</label>
+                </section>
+                <section>
+                    <input type="checkbox" name="imitatie" id="Bijpersoon" value="Bijpersoon">
+                    <label for="Bijpersoon">Bijpersoon</label>
+                </section>
+                <section>
+                    <input type="checkbox" name="imitatie" id="schrijver" value="schrijver">
+                    <label for="schrijver">Schrijver</label>
+                </section>
+            </fieldset>
+            <fieldset>
+                <legend>Setting</legend>
+                <section>
+                    <input type="checkbox" name="setting" id="themVer" value="Verandering in thema">
+                    <label for="Spannend">Verandering thema</label>
+                </section>
+                <section>
+                    <input type="checkbox" name="setting" id="extGeb" value="Externe gebeurtenis">
+                    <label for="scnd opt">Externe gebeurtenis</label>
+                </section>
+
+            </fieldset>
+            <fieldset>
+                <legend>Staat van hoofdpersoon</legend>
+                <section>
+                    <input type="checkbox" name="staat van hoofdpersoon" id="mentBep" value="first opt">
+                    <label for="first opt">Mentale beperking</label>
+                </section>
+                <section>
+                    <input type="checkbox" name="staat van hoofdpersoon" id="fysBep" value="scnd opt">
+                    <label for="scnd opt">Fysieke beperking</label>
+                </section>
+            </fieldset>
+            <fieldset>
+                <legend>Stijl van schrijven</legend>
+                <section>
+                    <input type="checkbox" name="stijl" id="dichtVorm" value="dichtvorm">
+                    <label for="first opt">Dichtvorm</label>
+                </section>
+                <section>
+                    <input type="checkbox" name="stijl" id="taal" value="taal/dialect">
+                    <label for="scnd opt">Taal / Dialect</label>
+                </section>
+                <section>
+                    <input type="checkbox" name="stijl" id="woordSp" value="woordspel">
+                    <label for="first opt">Woordspel</label>
+                </section>
+            </fieldset>
+            <fieldset>
+                <legend>persoonsvorm</legend>
+                <section>
+                    <input type="radio" name="vorm" value="eerste persoon" id="eerste">
+                    <label for="eerste">Eerste persoon</label>
+                    <input type="radio" name="vorm" value="derder persoon" id="derde">
+                    <label for="derde">Derde persoon</label>
+                </section>
+            </fieldset>
+            <button>minder zoek opties</button>
+        </form>
+    </aside>
+
+    <main>
+        <section class="sorteren">
+            <p> 6 resultaten</p>
+            <form action="#">
+                <fieldset class="sorteren">
+                    <legend>Sorteren</legend>
+                    <label for="sorteren">Sorteren</label>
+                    <select name="sorteren">
+                        <option value="uploaddatum" >Uploaddatum</option>
+                        <option value="A-Z" selected>A-Z</option>
+                        <option value="Z-A">Z-A</option>
+                        <option value="Populariteit">Populariteit</option>
+                    </select>
+                </fieldset>
+            </form>
+        </section>
+        <section class="articles">
+            <article>
+                <header>
+                    <img src="images/verhaaldrie.png" alt="afbeelding voor verhaal">
+                    <p class="datum"> <span>12-7-11</span> by Malkovich </p>
+                    <h2>Oenomotapee</h2>
+                </header>
+                <p>
+                    - ‘Biertje dan maar?’ – ‘Graag.’ – ‘Vermoeiende dag?’ – ‘Nah. Naar de bilbiotheek geweest. Met de bus.’ – ‘Gaat daar een bus naartoe?’ – ‘De bus stopt op het stationsplein.’ – ‘Ah. En vandaar moet je lopen?’ – ‘Ja, ik was met mijn zoon. Die sliep in zijn kinderwagen.’ – ‘Goed zo. Lekker wandelweer?’ […]
+                </p>
+                <footer>
+                    <img src="images/voegtoe.png" alt="Toevoegen aan leeslijsten">
+                    <a href="verhaaldrie.html" class="knop lezen">
+                        <p><span>></span>lees verhaal</p>
+                    </a>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <img src="images/blindactive.png" alt="afbeelding voor verhaal">
+                    <p class="datum"> <span>12-7-11</span> by Malkovich </p>
+                    <h2>Blind</h2>
+                </header>
+                <p>
+                    Kraak de code en win een romantisch etentje met de verwarde man. In kwellende situaties toveren apen pennenvruchten uit invloedrijke tapijthandelaren. De engelen buigen uitermate succesvol en negeren langzaam onze overrijpe politieke overlevingstrategieën. Verveelde en radicaal hompiekurkende ettertjes tegelen slablaadjes tot appelmoes. Tevens, in overleg, nagelen schoolverlaters patatjes. Leipe eekhoorntjes in Napels, met immorele jaknikkers […]
+                </p>
+                <footer>
+                    <img src="images/voegtoe.png" alt="Toevoegen aan leeslijsten">
+                    <a href="verhaal%C3%A9%C3%A9n.html" class="knop lezen">
+                        <p><span>></span>lees verhaal</p>
+                    </a>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <img src="images/008klein.jpg" alt="afbeelding voor verhaal">
+                    <p class="datum"> <span>12-7-11</span> by Malkovich </p>
+                    <h2>Nico Dijkshoorn
+                        <imiteert></imiteert>
+                    </h2>
+                </header>
+                <p>
+                    Noot vooraf: de heer Nico Dijkshoorn hecht eraan te melden dat hij onderstaande niet heeft geschreven. Ik stap uit een, ja wat is het eigenlijk?, een bus. Lijn 21? Zou zomaar kunnen. Twaalf uur. In de middag. Mijn zoon, luistert u mee?, mijn grandioze zoon, diezelfde zoon die zojuist nog die knotsgekke bus bij elkaar […]
+                </p>
+                <footer>
+                    <img src="images/voegtoe.png" alt="Toevoegen aan leeslijsten">
+                    <a href="verhaaltwee.html" class="knop lezen">
+                        <p><span>></span>lees verhaal</p>
+                    </a>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <img src="images/traveler.jpeg" alt="afbeelding voor verhaal">
+                    <p class="datum"> <span>12-7-11</span> by Malkovich </p>
+                    <h2>Verrassing</h2>
+                </header>
+                <p>
+                    - ‘Biertje dan maar?’ – ‘Graag.’ – ‘Vermoeiende dag?’ – ‘Nah. Naar de bilbiotheek geweest. Met de bus.’ – ‘Gaat daar een bus naartoe?’ – ‘De bus stopt op het stationsplein.’ – ‘Ah. En vandaar moet je lopen?’ – ‘Ja, ik was met mijn zoon. Die sliep in zijn kinderwagen.’ – ‘Goed zo. Lekker wandelweer?’ […]
+                </p>
+                <footer>
+                    <img src="images/voegtoe.png" alt="Toevoegen aan leeslijsten">
+                    <a href="verhaaldrie.html" class="knop lezen">
+                        <p><span>></span>lees verhaal</p>
+                    </a>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <img src="images/images.png" alt="afbeelding voor verhaal">
+                    <p class="datum"> <span>12-7-11</span> by Malkovich </p>
+                    <h2>Code</h2>
+                </header>
+                <p>
+                    Kraak de code en win een romantisch etentje met de verwarde man. In kwellende situaties toveren apen pennenvruchten uit invloedrijke tapijthandelaren. De engelen buigen uitermate succesvol en negeren langzaam onze overrijpe politieke overlevingstrategieën. Verveelde en radicaal hompiekurkende ettertjes tegelen slablaadjes tot appelmoes. Tevens, in overleg, nagelen schoolverlaters patatjes. Leipe eekhoorntjes in Napels, met immorele jaknikkers […]
+                </p>
+                <footer>
+                    <img src="images/voegtoe.png" alt="Toevoegen aan leeslijsten">
+                    <a href="verhaal%C3%A9%C3%A9n.html" class="knop lezen">
+                        <p><span>></span>lees verhaal</p>
+                    </a>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <img src="images/verhaaltweezonder.png" alt="afbeelding voor verhaal">
+                    <p class="datum"> <span>12-7-11</span> by Malkovich </p>
+                    <h2>Verwarde Man
+                        <imiteert></imiteert>
+                    </h2>
+                </header>
+                <p>
+                    Noot vooraf: de heer Nico Dijkshoorn hecht eraan te melden dat hij onderstaande niet heeft geschreven. Ik stap uit een, ja wat is het eigenlijk?, een bus. Lijn 21? Zou zomaar kunnen. Twaalf uur. In de middag. Mijn zoon, luistert u mee?, mijn grandioze zoon, diezelfde zoon die zojuist nog die knotsgekke bus bij elkaar […]
+                </p>
+                <footer>
+                    <img src="images/voegtoe.png" alt="Toevoegen aan leeslijsten">
+                    <a href="verhaaltwee.html" class="knop lezen">
+                        <p><span>></span>lees verhaal</p>
+                    </a>
+                </footer>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h2>NS stijloefeningen</h2>
+        <section class="socialMedia">
+            <img src="images/facebookicon.svg" alt="Facebook">
+            <img src="images/twittericon.svg" alt="Twitter">
+            <img src="images/pinteresticon.svg" alt="Pinterest">
+            <img src="images/instagramicon.svg" alt="Instagram">
+        </section>
+        <section>
+            <form action="#">
+                <fieldset>
+                    <legend>Aanmelden / Registreren</legend>
+                    <label for="mail"></label>
+                    <input type="email" id="mail" placeholder="e-mailadres">
+                </fieldset>
+            </form>
+            <button class="volgende">Volgende</button>
+            <a href="inlog.html">Geen account?<span> Maak er één</span></a>
+        </section>
+        <section class="links">
+            <a href="#"><span>></span>Inloggen</a>
+            <a href="#"><span>></span>Favorieten</a>
+            <a href="#"><span>></span>Zoek een verhaal</a>
+            <a href="#"><span>></span>Op reis</a>
+            <a href="http://www.ns.nl"><span>></span>Naar NS.nl</a>
+        </section>
+    </footer>
+    <script src="scripts/scriptjs.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+body {
+    background: url("../images/traveler.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form#inlog {
+    position: relative;
+    background: rgba(255, 201, 23, 1) 0;
+    border-bottom: 2px grey solid;
+    padding: 2rem;
+    margin: 1rem auto;
+    width: 100vw;
+    max-width: 45em;
+}
+
+fieldset {
+    border: 0;
+}
+
+legend {
+    text-decoration: none;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    width: 47%;
+    padding: 1em;
+    cursor: pointer;
+    display: inline-block;
+    background: #003082;
+    color: #ffc917;
+    box-shadow: 3px 5px 2px 2px grey;
+}
+
+legend:hover {
+    background: #e6b71c;
+    color: #003082;
+}
+
+#registreren {}
+
+#userdata.active section {
+    display: block;
+}
+
+#check-out legend {
+    display: none;
+}
+
+#userdata section {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+#userdata label {
+    display: block;
+    text-transform: capitalize;
+}
+
+#userdata input {
+    background: #f3f3f3;
+    padding: 0.8rem 0.95rem 0.7rem;
+    transition: .3s;
+    width: 96%;
+    max-width: 35em;
+}
+
+#userdata input:focus {
+    background: #ffffff;
+    transform: scale(1.05, 1);
+}
+
+#userdata input:valid {
+    background: #f9ff9a;
+}
+
+#userdata input:invalid {
+    box-shadow: none;
+}
+
+
+[type="submit"] {
+    background: #0079d3;
+    color: #fff;
+    border: none;
+    padding: .7rem 2rem;
+    margin-top: 1.5em;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+    border-bottom: 2px solid #003082;
+
+}
+
+[type="submit"]:hover {
+    background: #003082;
+}
+
+.hidelabel {
+    display: none;
+}
+
+.butWhy {
+    background: #ffffff;
+    width: 100vw;
+    max-width: 45em;
+    margin: 0 auto 5em;
+    padding: 2em;
+}
+
+.butWhy ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+footer {}

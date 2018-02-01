@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NS Stories</title>
+    <link rel="stylesheet" href="style/stylesheet.css">
+    <link rel="stylesheet" href="style/inlogstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header>
+        <section class="topBar">
+            <a href="index.html">
+            <img src="images/Logo_NS.svg" alt="Logo NS en Home button">
+            </a>
+            <h1>NS Stijloefeningen</h1>
+            <a href="#">
+                <img src="images/leeslijsten.png" alt="link naar leeslijsten">
+            </a>
+            <a href="inlog.html"><img src="images/loggedin.svg" alt="inloggen"></a>
+        </section>
+    </header>
+    <main>
+        <form action="#" id="inlog">
+            <a href="inlog.html" id="legendInlog">
+                <Legend>Inloggen</Legend>
+            </a>
+            <a href="registreer.html" id="registreren">
+                <legend>Registreren</legend>
+            </a>
+            <fieldset class="" id="userdata">
+                <section>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="username" placeholder="e-mailadres" required>
+                </section>
+                <section>
+                    <label for="password">Wachtwoord</label>
+                    <input type="password" name="password" placeholder="wachtwoord" required minlength="8" maxlength="14">
+                </section>
+            </fieldset>
+            <fieldset id="check-out">
+                <legend>Submit</legend>
+                <div class="remember">
+                    <input type="checkbox" name="remember-me">
+                    <label for="remember-me">remember me</label>
+                </div>
+                <label for="submit" class="hidelabel">submit</label>
+                <input type="submit" name="submit" value="Registreer">
+            </fieldset>
+        </form>
+        <section class="butWhy">
+            <h2> Waarom registreren?</h2>
+            <ol type="1">
+                <li>De mogelijkheid om verhalen op te slaan
+                </li>
+                <li>Afspeellijsten maken</li>
+                <li>Afspeellijsten offline beschikbaar</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <h2>NS stijloefeningen</h2>
+        <section class="socialMedia">
+            <img src="images/facebookicon.svg" alt="Facebook">
+            <img src="images/twittericon.svg" alt="Twitter">
+            <img src="images/pinteresticon.svg" alt="Pinterest">
+            <img src="images/instagramicon.svg" alt="Instagram">
+        </section>
+        <section class="links">
+            <a href="#"><span>></span>Inloggen</a>
+            <a href="#"><span>></span>Favorieten</a>
+            <a href="#"><span>></span>Zoek een verhaal</a>
+            <a href="#"><span>></span>Op reis</a>
+            <a href="http://www.ns.nl"><span>></span>Naar NS.nl</a>
+        </section>
+    </footer>
+    <script src="scripts/scriptjs.js"></script>
+</body>
+
+</html>
